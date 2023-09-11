@@ -1,18 +1,18 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="/css/style.css">
-    </head>
-
-    <body>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="https://icons.veryicon.com/png/o/miscellaneous/two-color-icon-library/user-286.png" alt="User Icon" class="user-icon">
         <form action="/cgi-bin/index.py" method="get">
-<!--    <form action="/cgi-bin/index.py" method="post"> -->
-            User: <input type="text"     name="user"   ></br>
-            Pass: <input type="password" name="pass"   ></br>
-	          <input type="submit"   value="enviar">
+            <label for="user">User:</label>
+            <input type="text" name="user" id="user"><br>
+            <label for="pass">Pass:</label>
+            <input type="password" name="pass" id="pass"><br>
+            <input type="submit" value="Enviar">
         </form>
-
-
-        <script src="/js/script.js"></script>
-
-    </body>
+    </div>
+</body>
 </html>
